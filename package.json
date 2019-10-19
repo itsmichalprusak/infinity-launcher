@@ -1,5 +1,6 @@
 {
   "name": "infinity-launcher",
+  "productName": "Infinity RP Launcher",
   "version": "1.0.0",
   "description": "🖥️ Program uruchamiający zmodyfikowanego klienta FiveM.",
   "main": "launcher.js",
