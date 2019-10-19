@@ -1,0 +1,22 @@
+{
+  "name": "infinity-launcher",
+  "version": "1.0.0",
+  "description": "🖥️ Program uruchamiający zmodyfikowanego klienta FiveM.",
+  "main": "launcher.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prusak-tech/infinity-launcher.git"
+  },
+  "author": "Michał Prusak",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/prusak-tech/infinity-launcher/issues"
+  },
+  "homepage": "https://github.com/prusak-tech/infinity-launcher#readme",
+  "devDependencies": {
+    "electron": "^6.0.12"
+  }
+}
