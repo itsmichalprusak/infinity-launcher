@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/prusak-tech/infinity-launcher#readme",
   "devDependencies": {
-    "electron": "^6.0.12"
+    "bootstrap": "^4.3.1",
+    "electron": "^6.0.12",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.0"
   }
 }
