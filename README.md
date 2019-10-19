@@ -1,1 +1,2 @@
-infinity-launcher
+# Infinity Launcher
+> 🖥️ Program uruchamiający zmodyfikowanego klienta FiveM.
