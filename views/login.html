@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Michał Prusak">
+    <title>Infinity RP Launcher</title>
+    <!-- Purpose assets -->
+    <link rel="stylesheet" href="https://demo.webpixels.io/purpose-website-ui-kit-v2.0.1/assets/libs/@fortawesome/fontawesome-pro/css/all.min.css">
+    <!-- Purpose CSS -->
+    <link rel="stylesheet" href="https://demo.webpixels.io/purpose-website-ui-kit-v2.0.1/assets/css/purpose-dark.css" id="stylesheet">
+    <!-- CSP -->
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self'">
+  </head>
+  
+  <body style="opacity: 1;">
+    <div class="main-content">
+        <div class="container h-100vh d-flex align-items-center">
+            <div class="col">
+              <div class="row justify-content-center">
+                <div class="col-md-6 col-lg-5 col-xl-4">
+                  <div>
+                    <div class="mb-5 text-center">
+                      <img src="https://i.imgur.com/HOiJAXG.png" height="72px">
+                      <p class="text-muted mb-0 mt-2">Witamy z powrotem! Zaloguj się swoim kontem Infinity, by zagrać na serwerze.</p>
+                    </div>
+                    <span class="clearfix"></span>
+                    <form>
+                      <div class="form-group">
+                        <label class="form-control-label">Nazwa użytkownika</label>
+                        <div class="input-group input-group-merge">
+                          <div class="input-group-prepend">
+                            <span class="input-group-text">
+                              <i class="far fa-user"></i>
+                            </span>
+                          </div>
+                          <input class="form-control" id="username">
+                        </div>
+                      </div>
+                      <div class="form-group mb-4">
+                        <div class="d-flex align-items-center justify-content-between">
+                          <div>
+                            <label class="form-control-label">Hasło</label>
+                          </div>
+                          <div class="mb-2">
+                            <a href="#!" class="small text-muted text-underline--dashed border-primary">
+                              Nie pamiętasz hasła?
+                            </a>
+                          </div>
+                        </div>
+                        <div class="input-group input-group-merge">
+                          <div class="input-group-prepend">
+                            <span class="input-group-text">
+                              <i class="far fa-key"></i>
+                            </span>
+                          </div>
+                          <input type="password" class="form-control" id="password">
+                          <div class="input-group-append">
+                            <span class="input-group-text">
+                              <a id="showPassword" href="#!" class="text-muted">
+                                  <i class="far fa-eye"></i>
+                              </a>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="mt-4">
+                        <a id="login" href="#!" class="btn btn-block btn-primary">Zaloguj się</a>
+                      </div>
+                    </form>
+                    <div class="mt-2 text-center" style="line-height: normal !important;">
+                      <small class="text-muted">
+                        Logując się, oświadczasz, że znasz 
+                        <a href="#!" class="text-muted text-underline--dashed border-primary">
+                          Zasady rozgrywki
+                        </a>
+                         i będziesz się do nich stosował(a).
+                      </small>
+                    </div>
+                    <hr style="margin: 1rem;">
+                    <div class="text-center">
+                      <small>Nie masz jeszcze konta?</small>
+                      <a id="register" href="#!" class="small font-weight-bold">Zarejestruj się</a>
+                    </div>
+                    <div class="text-center">
+                      <small class="text-muted">
+                        v1.0.0-dev.b576fd7 (2019-10-19 04:43:05)
+                      </small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+    <script src="../assets/inject.js"></script>
+
+    <script src="../assets/ui.js"></script>
+
+    <script src="../assets/login.js"></script>
+  </body>
+</html>
